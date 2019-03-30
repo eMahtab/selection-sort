@@ -22,7 +22,7 @@ public class SelectionSort {
 	}
 
 	public static void main(String[] args) {
-		int array[] = { 23, 54, 1, 7, 3, 2, 10 };
+		int array[] = { 10, 8, 99, 7, 1, 5, 88, 9 };
 		for (int item : selectionSort(array)) {
 			System.out.print(item + " ");
 		}
